@@ -2,6 +2,7 @@ var http = require("http");
 var fs = require("fs");
 var os = require("os");
 var ip = require("ip");
+var moment = require("moment");
 
 var server = http.createServer(function(req, res) {
     if(req.url === "/") {
@@ -18,6 +19,9 @@ var server = http.createServer(function(req, res) {
        myTotalMemory = os.totalmem / (1024 * 1024) + " MB"
        myAvailableMemory = os.freemem / (1024 * 1024) + " MB"
        numberOfCPU = os.cpus().length
+       	
+
+
         html =`
         <!DOCTYPE html>
         <html>
