@@ -3,19 +3,19 @@ The types of functions are:
 
 What the calculator calls for when it is looking for the function
 
-+ for addition
+'+ for addition
 
-- for subtraction
+'- for subtraction
 
-* for multiplication
+'* for multiplication
 
-/ for division
+'/ for division
 
-** for exponentials
+'** for exponentials
 
-% for remainder/modulus
+'% for remainder/modulus
 
-// for floor division
+'// for floor division
 
 
 
