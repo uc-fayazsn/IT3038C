@@ -18,12 +18,19 @@ The types of functions are:
 
 
 Addition will add the two inputs together (inputOne + inputTwo)
+
 Subtractions will subtract the two inputs (inputOne - inputTwo)
+
 Multiplcation will multiply the two inputs (inputOne * inputTwo)
+
 Division will divide the two inputs. (inputOne / inputTwo)
+
 Exponentials will perform their exponentials with the two inputs (inputOne ** inputTwo)
+
 Modulus will provide the remainder of the two functions (inputOne % inputTwo)
+
 Floor Division returns the integral part of the division (inputOne // inputTwo)
+
 
 
 #division functions
