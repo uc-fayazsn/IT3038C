@@ -1,13 +1,13 @@
 This calculator is given two values input by the user and then applies whichever functionality of their choosing.
 The types of functions are:
 
-+ for addition
-- for subtraction
-* for multiplication
-/ for division
-** for exponentials
-% for remainder/modulus
-// for floor division
+#+ for addition
+#- for subtraction
+#* for multiplication
+#/ for division
+#** for exponentials
+#% for remainder/modulus
+#// for floor division
 
 
 Addition will add the two inputs together (inputOne + inputTwo)
