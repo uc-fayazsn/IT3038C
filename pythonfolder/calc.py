@@ -3,7 +3,7 @@ def updateLog():
 
     print('''
     
-    Welcome to Fayaz's IT3038C Calculator. For Project 2 the updates to this code include expotentials, remainder, and modulus functionalities as well as a way to calculation using the calculator outside of running the program. The calculator will start shortly. Enjoy!
+    Welcome to Fayaz's IT3038C Calculator. For Project 2 the updates to this code include expotentials, remainder, and modulus functionalities as well as a way to calculation using the calculator outside of running the program. Division functions now restart the calculator with a message if the denominator is equal to 0, as this an error. The calculator will start shortly. Enjoy!
     
     ''')
 
@@ -62,11 +62,18 @@ Please type in the math operation you would like to complete:
 
 
     elif operation == '/':
-       
+       while inputTwo != 0:
+        
         print('{} / {} = '.format(inputOne, inputTwo))
 
         print(inputOne / inputTwo)
-  
+        onemoretime()
+       else:
+       
+        print('You have a zero in the denominator, please restart calculations as this value is undefined. ')
+        time.sleep(2)
+        
+        
 
     elif operation == '**':
       
@@ -125,5 +132,5 @@ Please type Y for YES or N for NO.
 
 
 updateLog()
-time.sleep(5)
+time.sleep(2)
 calculate()
