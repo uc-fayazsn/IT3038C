@@ -89,10 +89,15 @@ Please type in the math operation you would like to complete:
       print(inputOne % inputTwo) 
       
     elif operation == '//':
-      
-      print('{} // {} = '.format(inputOne, inputTwo))
+      while inputTwo != 0:
+        
+        print('{} / {} = '.format(inputOne, inputTwo))
 
-      print(inputOne // inputTwo) 
+        print(inputOne / inputTwo)
+        onemoretime()
+      else:
+        print('You have a zero in the denominator, please restart calculations as this value is undefined. ')
+        time.sleep(2)
 
     else:
 
