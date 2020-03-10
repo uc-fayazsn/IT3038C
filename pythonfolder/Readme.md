@@ -1,4 +1,14 @@
 This calculator is given two values input by the user and then applies whichever functionality of their choosing.
+
+How to run this calculator: If you have python installed you can just double click the calc.py file and it will open up the cmd window with the update message and then prompt for which type of function you would like to choose. You can otherwise go to the path after you have cloned it in cmd
+
+cd C:\~whereeveryouplacedit\
+$ python calc.py
+
+will run the file in the cmdline interface.
+
+
+
 The types of functions are:
 
 What the calculator calls for when it is looking for the function
