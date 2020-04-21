@@ -8,6 +8,7 @@ While it is possible to use this, each set of 3 values is corresponding to 1 ski
 
 
 To use this python script install the module
+
 pip install osrs_highscores
 
 To make sure the script properly works, make sure to change the line at the end which is outputting the file, to a directory on your machine that is valid. The current one on this project is C:\IT3038C\osrsAPI\input.csv.
@@ -35,4 +36,5 @@ Finish Pre-reqs before continuing
 4. Script pulls the data to a dataframe
 5. Dataframe is exported to CSV
 6. Confirm data in CSV.
+
 
