@@ -14,6 +14,10 @@ To use this python script install the module
 
 pip install osrs_highscores
 
+Documentation about the plugin found here: https://github.com/matthew-palmer/osrs_highscores
+
+This is designed to output all levels and skill total for an account and output it to a csv for further use.
+
 To make sure the script properly works, make sure to change the line at the end which is outputting the file, to a directory on your machine that is valid. The current one on this project is C:\IT3038C\osrsAPI\input.csv.
 
 
@@ -36,7 +40,7 @@ We can then verify our data in the CSV with the hiscores directly.
 Finish Pre-reqs before continuing
 
 1. Run the script
-2. Enter any name of a Ironman account from the hiscores
+2. Enter any name of a Ironman account from the hiscores (Important: If the name has spaces, use an underscore(_) to denote the space i.e Fergie Jr is Fergie_Jr in the script.)
 3. Script will run and pull all of the skills and their levels for the account
 4. Script pulls the data to a dataframe
 5. Dataframe is exported to CSV
