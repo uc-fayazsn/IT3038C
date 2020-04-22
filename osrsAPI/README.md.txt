@@ -7,7 +7,7 @@ b'170771,1875,83546285\n1279963,60,284510\n601573,75,1232284\n318666,95,9457293\
 \n-1,-1\n-1,-1\n-1,-1\n358617,40\n-1,-1\n689419,2\n256370,16\n283977,21\n339937,1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n11437,107\n-1,-1\n45288,92\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1
 \n-1,-1\n116095,60\n-1,-1\n-1,-1\n61197,30\n-1,-1\n101484,144\n-1,-1\n42303,60\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n-1,-1\n121406,130\n154730,189\n22478,161\n-1,-1\n'
 
-While it is possible to use this, each set of 3 values is corresponding to 1 skill, it would be easier to use an module which already converts the information into variables we can use.
+While it is possible to use this, each set of 3 values is corresponding to 1 skill and then the next skill is noted by a '\n', it would be easier to use an module which already converts the information into readable information.
 
 
 To use this python script install the module
